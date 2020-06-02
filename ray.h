@@ -8,10 +8,10 @@ class ray {
     point3 orig;
     vec3 dir;
 
-    //Creates empty array
+    //Creates empty ray
     ray(){}
     
-    //Creates array with origin and direction
+    //Creates a ray with origin and direction
     ray(const point3& origin, const vec3& direction)
     : orig(origin), dir(direction){}
     
